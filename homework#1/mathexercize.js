@@ -15,7 +15,7 @@ console.log(iphoneprice * taxrateconverted);
 let newtax = 6;
 console.log(iphoneprice + newtax);
 
-// and the cost of 30 iphones is *drum roll please*
+// and the cost of 30 iphones is *drum roll*
 let thepricewiththetax = 125.95;
 let totalcost = thepricewiththetax * iphones;
-console.log("zee total price is", totalcost);
+console.log("the total price is", totalcost);
