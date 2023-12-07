@@ -23,3 +23,23 @@ console.log(differentTypes(person));
 console.log(differentTypes(555));
 console.log(differentTypes(true));
 console.log(differentTypes(neOdredena));
+
+// Homework #3
+
+let pari = 10000;
+
+function cashAtm() {
+  let vadenjePari = prompt("Kolku sakate da izvadite?");
+  if (vadenjePari > 10000) {
+    alert("Not enough money");
+    return;
+  }
+  alert(
+    `Izvadeni se ${vadenjePari} denari i ostanuvaat ${
+      pari - vadenjePari
+    } denari.`
+  );
+}
+
+cashAtm();
+
