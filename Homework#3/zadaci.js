@@ -10,7 +10,7 @@ calculateAge(2000);
 calculateAge(1997);
 calculateAge(1969);
 
-// Homework #1
+// Homework Part #1
 function differentTypes(userInput) {
   return typeof userInput;
 }
@@ -24,7 +24,21 @@ console.log(differentTypes(555));
 console.log(differentTypes(true));
 console.log(differentTypes(neOdredena));
 
-// Homework #3
+//Homework Part #2 
+
+// trebashe so edna funkcija ama ne mi uspevashe 
+function humanToDogYears(humanAge) {
+  let dogYears = 16 * Math.log(humanAge) + 31;
+  return Math.round(dogYears);
+}
+function dogToHumanYears(dogAge) {
+  let humanYears = dogAge / 7;
+  return Math.round(humanYears);
+}
+console.log(humanToDogYears(12));
+console.log(dogToHumanYears(10));
+
+// Homework Part #3
 
 let pari = 10000;
 
