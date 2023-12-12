@@ -26,7 +26,6 @@ console.log(differentTypes(neOdredena));
 
 //Homework Part #2 
 
-// trebashe so edna funkcija ama ne mi uspevashe 
 function humanToDogYears(humanAge) {
   let dogYears = 16 * Math.log(humanAge) + 31;
   return Math.round(dogYears);
