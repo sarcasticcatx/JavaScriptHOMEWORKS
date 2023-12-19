@@ -34,3 +34,14 @@ function oneBigString(sentence) {
 
 let sentence = ["Hello", "there", "studennts", "of ", "Sedc", "!"];
 console.log(oneBigString(sentence));
+
+Homework #4
+
+for (let i = 1; i <= 20; i++) {
+  console.log(i);
+  if (i % 2 === 0) {
+    console.log(i + " is even");
+  } else {
+    console.log(i + " is odd");
+  }
+}
