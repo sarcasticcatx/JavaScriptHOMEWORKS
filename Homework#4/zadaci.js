@@ -58,3 +58,16 @@ function sumOfMaxAndMin(nums) {
 
 let cool = [7, 9, 12, 50];
 console.log(sumOfMaxAndMin(cool));
+
+Homework #6 
+
+function getFullNames(firstNames, lastNames) {
+  return firstNames.map(
+    (firstName, i) => `${i + 1}. ${firstName} ${lastNames[i]}`
+  );
+}
+
+let firstNames = ["Bob", "Jill"];
+let lastNames = ["Gregory", "Wurtz"];
+
+console.log(getFullNames(firstNames, lastNames));
