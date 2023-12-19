@@ -12,3 +12,15 @@ console.log(story);
 // poradi nekoja prichina koga kje pisham name avtomatski mi go preshkrtuva
 
 Homework #2
+
+function arrayOfFive(broevi) {
+  let sum = 0;
+  for (let number of broevi) {
+    sum += number;
+  }
+  return sum;
+}
+
+let noombers = [10, 20, 30, 40, 50];
+let sum = arrayOfFive(noombers);
+console.log(sum);
