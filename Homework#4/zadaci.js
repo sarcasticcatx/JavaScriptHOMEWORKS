@@ -45,3 +45,16 @@ for (let i = 1; i <= 20; i++) {
     console.log(i + " is odd");
   }
 }
+
+Homework #5
+
+function sumOfMaxAndMin(nums) {
+  let maxNums = Math.max(...nums);
+  console.log(maxNums);
+  let minNums = Math.min(...nums);
+  console.log(minNums);
+  return maxNums + minNums;
+}
+
+let cool = [7, 9, 12, 50];
+console.log(sumOfMaxAndMin(cool));
