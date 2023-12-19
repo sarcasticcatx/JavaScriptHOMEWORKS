@@ -24,3 +24,13 @@ function arrayOfFive(broevi) {
 let noombers = [10, 20, 30, 40, 50];
 let sum = arrayOfFive(noombers);
 console.log(sum);
+
+Homework #3
+
+function oneBigString(sentence) {
+  let oneWholeSentence = sentence.join(" ");
+  return oneWholeSentence;
+}
+
+let sentence = ["Hello", "there", "studennts", "of ", "Sedc", "!"];
+console.log(oneBigString(sentence));
