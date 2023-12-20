@@ -1,4 +1,5 @@
 Homework #1
+//i need to re-do them poso ima stvari sho ne sme gi uchele 
 
 function tellStory(stories) {
   let [ime, mood, activity] = stories;
@@ -28,7 +29,7 @@ console.log(sum);
 Homework #3
 
 function oneBigString(sentence) {
-  let oneWholeSentence = sentence.join(" ");
+  let oneWholeSentence = sentence.join(" "); //The .join() method in JavaScript is used to join all elements of an array into a string.
   return oneWholeSentence;
 }
 
@@ -47,7 +48,7 @@ for (let i = 1; i <= 20; i++) {
 }
 
 Homework #5
-
+//The ... operator in JavaScript is known as the spread operator. It allows an iterable (like an array or string) to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected.
 function sumOfMaxAndMin(nums) {
   let maxNums = Math.max(...nums);
   console.log(maxNums);
@@ -60,7 +61,7 @@ let cool = [7, 9, 12, 50];
 console.log(sumOfMaxAndMin(cool));
 
 Homework #6 
-
+//The .map() method in JavaScript is used to create a new array by applying a function to every element in an existing array. 
 function getFullNames(firstNames, lastNames) {
   return firstNames.map(
     (firstName, i) => `${i + 1}. ${firstName} ${lastNames[i]}`
