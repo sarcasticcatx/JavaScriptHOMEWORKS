@@ -30,3 +30,32 @@ console.log(headerThree);
 headerThree.innerText =
   " sakas da mi kazhes deka samo innertext trebashe da staam za da raboti ...";
 
+Home of the work 2
+
+console.log("what if computers were smarter, what then?");
+
+let list = document.getElementById("pain");
+let broevi = [2, 5, 9, 30];
+console.log(broevi);
+//appendchild gi vrzuva elementite so nivniot parent ja taka go svativ
+//poso ne mi dava innerhtml mi vika syntax error go najdov toa appendchild
+let li2 = document.createElement("li");
+li2.textContent = broevi;
+list.appendChild(li2);
+
+function sumOfNumbs(broevi) {
+  let result = 0;
+  for (i = 0; i < broevi.length; i++) result = result + broevi[i];
+  return result;
+};
+
+console.log(sumOfNumbs(broevi)); // output 46
+
+let result = sumOfNumbs(broevi);
+let li3 = document.createElement("li");
+li3.textContent = `the sum is: ${result}`;
+list.appendChild(li3);
+
+let li4 = document.createElement("li");
+li4.textContent = "2 + 5 + 9 + 30 = " + (2 + 5 + 9 + 30);
+list.appendChild(li4);
