@@ -59,3 +59,38 @@ list.appendChild(li3);
 let li4 = document.createElement("li");
 li4.textContent = "2 + 5 + 9 + 30 = " + (2 + 5 + 9 + 30);
 list.appendChild(li4);
+
+
+// BONUS HOMEWORK
+
+let inputName = prompt("What is the name of your recipe");
+
+if (inputName === null || inputName === "") {
+  alert("No recipe name was entered.");
+} else {
+  let nameRecipe = document.createElement("h1");
+  nameRecipe.textContent = inputName;
+  document.body.appendChild(nameRecipe);
+
+  let inputIngrid = prompt("How many ingredients do you need");
+
+  if (inputIngrid === null || inputIngrid === "" || isNaN(inputIngrid)) {
+    alert("Invalid number of ingredients entered.");
+  } else {
+    let ul = document.createElement("ul");
+
+    for (let i = 0; i < parseInt(inputIngrid); i++) {
+      let everyIngrid = prompt(`Ingredient ${i + 1}`);
+
+      if (everyIngrid === null || everyIngrid === "") {
+        alert(`No ingredient name was entered for Ingredient ${i + 1}.`);
+      } else {
+        let li = document.createElement("li");
+        li.textContent = everyIngrid;
+        ul.appendChild(li);
+      }
+    }
+
+    document.body.appendChild(ul);
+  }
+}
