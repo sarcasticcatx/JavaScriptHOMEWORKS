@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework One</title>
+    <script src="handman.js" defer> </script>
+    <link rel="stylesheet" href="/hangman.css">
+</head>
+
+<body>
+    <main>
+        <h1> JavaScript Hangman Game </h1>
+        <h2> Use the alphabet below to guess the word, or click hint to get a clue. </h2>
+        <div class="alphabet"></div>
+        <h2 class="second"> The Chosen Category is Movies </h2>
+        <div>
+            <ul class="zborot">
+
+            </ul>
+            <h3 id="guesses"> choose a letter to start</h3>
+            <p id="lives"></p>
+            <p id="platform"> box</p>
+        </div>
+        <div class="game">
+            <p id="empty"> move the cursor to the empty button to see the hint</p>
+            <button id="hint" type="button">Hint</button>
+            <button id="playagain" type="button" onclick="window.location.reload()">Play again</button>
+            <p class="death"> </p>
+        </div>
+    </main>
+</body>
+
+</html>
