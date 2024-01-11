@@ -1,4 +1,4 @@
-//the beninging
+
 const azbuka = document.querySelector(".alphabet");
 const theMovie = document.querySelector(".zborot");
 const guessText = document.querySelector("#guesses");
