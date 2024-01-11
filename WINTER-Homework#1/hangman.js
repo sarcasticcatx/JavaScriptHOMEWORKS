@@ -110,7 +110,7 @@ function game(button, clickedLetter) {
       }
       return;
     }
-    // victory -go chita samo ako kliknes na bukvite za da alertne pobeda od koa kje go pogodis zborot 
+    // victory -go chita samo ako kliknes na bukvite za da alertne pobeda od koa kje go pogodis zborot, isto taka mi glitcnuva mesto you lost da kazhe you won.. 
     if (theMovieIs.length <= correctLetters.length) {
       !alert("You won");
       {
