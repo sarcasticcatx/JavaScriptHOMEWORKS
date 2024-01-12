@@ -120,7 +120,7 @@ function game(button, clickedLetter) {
     }
   }
 }
-//lowkey works thank god se crta chovecheto
+//chovecheto
 let images = [
   "https://64.media.tumblr.com/008cca12dadf1516eec9390be0af510f/78b85eaf528b97a8-98/s400x600/02f5e8ffe7f1349c7d0f6489e492576b980dbd84.pnj",
   "https://64.media.tumblr.com/69d2e29e3ebd10e4375a40b40a3dc8fb/78b85eaf528b97a8-13/s250x400/181fa913bca6e2893ddf8ca5d1955f9c2601ad2a.pnj",
