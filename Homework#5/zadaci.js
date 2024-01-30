@@ -1,4 +1,4 @@
-Home of the work 1
+//Home of the work 1
 
 const paragraphsElement = document.getElementsByClassName("paragraph")[0];
 console.log(paragraphsElement.textContent);
@@ -30,7 +30,7 @@ console.log(headerThree);
 headerThree.innerText =
   " sakas da mi kazhes deka samo innertext trebashe da staam za da raboti ...";
 
-Home of the work 2
+//Home of the work 2
 
 console.log("what if computers were smarter, what then?");
 
